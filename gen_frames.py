@@ -25,7 +25,7 @@ def crop(image, center, radius, size=512):
 selected_joints = np.concatenate(([0,1,2,3,4,5,6,7,8,9,10], 
                     [91,95,96,99,100,103,104,107,108,111],[112,116,117,120,121,124,125,128,129,132]), axis=0) 
 folder = 'test' # 'train', 'test'
-npy_folder = 'test/npy3' # 'train_npy/npy3', 'test_npy/npy3'
+npy_folder = 'test_npy/npy3' # 'train_npy/npy3', 'test_npy/npy3'
 out_folder = 'test_frames' # 'train_frames' 'test_frames'
 
 
