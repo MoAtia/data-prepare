@@ -105,14 +105,15 @@ def main():
                 paths.append(path1)
                 names.append(fname)
         print(len(paths))
+        print("PATHES", len(paths))
         # paths = paths[:4]
         # names = names[:4]
         step = 600
         start_step = 6
         # paths = paths[start_step*step:(start_step+1)*step]
         # names = names[start_step*step:(start_step+1)*step]
-        paths = paths[4200:]
-        names = names[4200:]
+        paths = paths[0:3081]
+        names = names[0:3081]
         paths = paths[::-1]
         names = names[::-1]
 
